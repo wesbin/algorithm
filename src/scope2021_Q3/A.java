@@ -9,36 +9,12 @@ public class A {
 
     public static void main(String[] args) {
 
-        /*
-         *
-         *
-         * 1110
-         * 1110
-         * 0110
-         * 0000
-         *
-         * total     11
-         * size1     8
-         * size2     3
-         *
-         *
-         * 배치가 가능한 공간을 list 에 담고
-         *
-         * list 를 돌며 각 포인트를 기준으로 size 만큼 공간이 있다면 추가
-         *
-         * */
-
-        int N = 5;
+        int N = 4;
         String[] input = new String[]{
-//                "1110",
-//                "1110",
-//                "0110",
-//                "0000"
-                "11111",
-                "11111",
-                "11111",
-                "11111",
-                "11111",
+                "1110",
+                "1110",
+                "0110",
+                "0000"
         };
 
         List<String> vect = new ArrayList<>();
