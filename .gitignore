@@ -12,3 +12,13 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+.idea/algorithm.iml
+.idea/encodings.xml
+.idea/markdown-navigator.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+out/
+src/scope2021_Q1/
+src/scope2021_Q2/
