@@ -9,6 +9,9 @@ public class A {
 
     public static void main(String[] args) {
 
+        /*
+        * INPUT
+        * */
         int N = 4;
         String[] input = new String[]{
                 "1110",
@@ -17,8 +20,10 @@ public class A {
                 "0000"
         };
 
+        /*
+        * 공간 정보 중 배치가 가능한 곳의 정보만 list 에 담는다
+        * */
         List<String> vect = new ArrayList<>();
-
         int inputLen = input.length;
         for (int i = 0; i < inputLen; i++) {
             String[] line = input[i].split("");
@@ -30,18 +35,14 @@ public class A {
         }
 
         /*
-         *
-         * 포인트에서 경계선을 넘지 않는 선까지 size 를 1 씩 늘려가며 확인
-         *
-         * */
-
+        * 배치가 가능한 포인트를 기준으로 size 0 부터 가능한 size 까지 검사한다.
+        * */
         Map<String, Integer> map = new HashMap<>();
         int vectLen = vect.size();
         for (int i = 0; i < vectLen; i++) {
             String[] pointXY = vect.get(i).split(",");
             int X = Integer.valueOf(pointXY[0]);
             int Y = Integer.valueOf(pointXY[1]);
-            int cnt = 0;
             boolean res = true;
             for (int j = 1; ; j++) {
                 if (X + j > vectLen) {
@@ -58,8 +59,6 @@ public class A {
                 }
                 if (!res) {
                     break;
-                } else {
-                    cnt++;
                 }
                 map.put(j + "", map.getOrDefault(j + "", 0) + 1);
             }
