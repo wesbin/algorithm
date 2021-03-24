@@ -76,6 +76,7 @@ public class A {
 
     private static void SearchAround(int x, int y) {
         map[x][y] = "0";
+        // 주변 8칸에 대한 좌표 이동
         int[] aroundX = new int[]{-1, -1, 0, 1, 1, 1, 0, -1};
         int[] aroundY = new int[]{0, 1, 1, 1, 0, -1, -1, -1};
         int aroundLen = aroundX.length;
