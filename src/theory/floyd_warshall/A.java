@@ -25,9 +25,9 @@ public class A {
             }
         }
         // 출력
-        for (int i = 0; i < tableLen; i++) {
+        for (int[] ints : table) {
             for (int j = 0; j < tableLen; j++) {
-                System.out.printf("%3d ", table[i][j]);
+                System.out.printf("%3d ", ints[j]);
             }
             System.out.println("\n");
         }
