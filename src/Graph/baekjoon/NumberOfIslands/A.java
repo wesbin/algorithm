@@ -1,4 +1,4 @@
-package baekjoon_NumberOfIslands;
+package Graph.baekjoon.NumberOfIslands;
 
 public class A {
 

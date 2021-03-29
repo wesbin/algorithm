@@ -1,4 +1,4 @@
-package programmers_graph_ranking;
+package Graph.programmers.Ranking;
 
 public class A {
 

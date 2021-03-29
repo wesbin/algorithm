@@ -1,4 +1,4 @@
-package scope2021_Q3;
+package scope2021.Q3;
 
 import java.util.ArrayList;
 import java.util.HashMap;

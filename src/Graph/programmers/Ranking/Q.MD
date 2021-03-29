@@ -25,3 +25,7 @@ n명의 권투선수가 권투 대회에 참여했고 각각 1번부터 n번까�
 2번 선수는 [1, 3, 4] 선수에게 패배했고 5번 선수에게 승리했기 때문에 4위입니다.
 
 5번 선수는 4위인 2번 선수에게 패배했기 때문에 5위입니다.
+
+**출처**
+
+[https://programmers.co.kr/learn/courses/30/lessons/49191](https://programmers.co.kr/learn/courses/30/lessons/49191)

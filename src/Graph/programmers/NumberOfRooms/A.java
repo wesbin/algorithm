@@ -1,4 +1,4 @@
-package programmers_graph_NumberOfRooms;
+package Graph.programmers.NumberOfRooms;
 
 import java.util.HashSet;
 import java.util.Set;

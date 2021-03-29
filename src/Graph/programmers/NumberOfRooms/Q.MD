@@ -29,3 +29,7 @@ ex) 1일때는 오른쪽 위로 이동
 - (0,0) 부터 시작해서 6(왼쪽) 으로 3번 이동합니다. 그 이후 주어진 arrows 를
   따라 그립니다.
 - 삼각형 (1), 큰 사각형(1), 평행사변형(1) = 3
+
+**출처**
+
+[https://programmers.co.kr/learn/courses/30/lessons/49190](https://programmers.co.kr/learn/courses/30/lessons/49190)

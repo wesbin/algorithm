@@ -1,4 +1,4 @@
-package programmers_graph_FarthestNode;
+package Graph.programmers.FarthestNode;
 
 import java.util.ArrayList;
 import java.util.List;
