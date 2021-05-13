@@ -1,4 +1,4 @@
-package BFS.programmers.WordConversion;
+package BFS.WordConversion;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package DFS.programmers.Network;
+package DFS.Network;
 
 public class A {
 

@@ -1,4 +1,4 @@
-package dijkstra.baekjoon.Algospot;
+package dijkstra.Algospot;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

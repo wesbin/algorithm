@@ -1,4 +1,4 @@
-package DFS.programmers.TargetNumber;
+package DFS.Target_number;
 
 public class A {
 

@@ -1,4 +1,4 @@
-package floyd_warshall.baekjoon.Delivery;
+package floyd_warshall.Delivery;
 
 public class A {
 
