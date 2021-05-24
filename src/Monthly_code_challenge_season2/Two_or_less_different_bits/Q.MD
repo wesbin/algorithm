@@ -48,3 +48,9 @@
 **입출력 예 #1**
 
 문제 예시와 같습니다.
+
+---
+
+**출처**
+
+[https://programmers.co.kr/learn/courses/30/lessons/77885](https://programmers.co.kr/learn/courses/30/lessons/77885)
